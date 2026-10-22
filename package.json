@@ -5,7 +5,7 @@
   "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "start": "serve out",
+  "start": "serve docs",
   "lint": "eslint"
   },
   "dependencies": {
