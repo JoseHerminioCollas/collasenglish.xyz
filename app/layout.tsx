@@ -88,6 +88,9 @@ export default function RootLayout({
             <Link href="/about_jose" className="hover:underline">
               About Jose
             </Link>
+            <Link href="/grammar_guide" className="hover:underline">
+              Grammar Guide
+            </Link>
             {/* <Link href="/lessons" className="hover:underline">Lessons</Link> */}
             <Link href="/contact" className="hover:underline">
               Contact

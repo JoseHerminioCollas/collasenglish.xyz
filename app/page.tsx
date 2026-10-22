@@ -17,6 +17,12 @@ export default function HomePage() {
           About Jose
         </a>
         <a
+          href="/grammar_guide"
+          className="px-6 py-3 border border-foreground text-foreground rounded-lg hover:bg-foreground hover:text-background transition"
+        >
+          Grammar Guide
+        </a>
+        <a
           href="/contact"
           className="px-6 py-3 border border-foreground text-foreground rounded-lg hover:bg-foreground hover:text-background transition"
         >
