@@ -1,6 +1,6 @@
-# English Teacher Website
+# Collas English
 
-The repository for the development of the website of English teacher, Jose Collas
+The repository for the development of collasenglish.xyz, the website of English teacher Jose Collas
 
 ## Getting Started
 

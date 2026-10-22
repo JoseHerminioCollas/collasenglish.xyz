@@ -88,8 +88,8 @@ export default function RootLayout({
 
         {/* Footer */}
         <footer className="w-full px-6 py-4 bg-foreground text-background text-sm text-center">
-          © {new Date().getFullYear()} Jose Collas, English Teacher. All rights
-          reserved.
+          © {new Date().getFullYear()} Collas English, Jose Collas, English
+          Teacher. All rights reserved.
         </footer>
       </body>
     </html>
