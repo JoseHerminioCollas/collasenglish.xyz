@@ -14,11 +14,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Collas English",
+  alternateName: "CollasEnglish",
+  url: "https://collasenglish.xyz",
+  founder: { "@type": "Person", name: "Jose Collas" },
+};
+
 export const metadata: Metadata = {
-  title: "Learn English Online with Jose Collas",
-  description: "Learn English online with Jose Collas",
+  title: "Learn English in Peru or Online with Jose Collas",
+  description:
+    "Collas English: learn English in Peru or online with Jose Collas",
+  applicationName: "Collas English",
   keywords: [
     "learn English online",
+    "English classes in Peru",
+    "in-person English classes",
     "English teacher",
     "Jose Collas",
     "virtual classes",
@@ -29,7 +42,8 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Collas English - Learn English with Jose Collas",
-    description: "Learn English online with Jose Collas, native speaker.",
+    description:
+      "Collas English: learn English in Peru or online with Jose Collas, native speaker.",
     url: "https://collasenglish.xyz",
     siteName: "Collas English",
     images: ["/opengraph-image.jpg"],
@@ -85,6 +99,13 @@ export default function RootLayout({
         <main className="flex-1 flex items-center justify-center p-8">
           {children}
         </main>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
 
         {/* Footer */}
         <footer className="w-full px-6 py-4 bg-foreground text-background text-sm text-center">
